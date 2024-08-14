@@ -131,7 +131,7 @@ struct MapEvents
 struct MapConnection
 {
     u8 direction;
-    s32 offset;
+    u32 offset;
     u8 mapGroup;
     u8 mapNum;
 };
@@ -254,6 +254,7 @@ enum {
     PLAYER_AVATAR_STATE_FIELD_MOVE,
     PLAYER_AVATAR_STATE_FISHING,
     PLAYER_AVATAR_STATE_WATERING,
+    PLAYER_AVATAR_STATE_VSSEEKER,
 };
 
 #define PLAYER_AVATAR_FLAG_ON_FOOT      (1 << 0)

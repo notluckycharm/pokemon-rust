@@ -1,4 +1,6 @@
 #include "config.h"
+#include "config/battle.h"
+#include "config/item.h"
 #include "constants/global.h"
 #include "constants/apprentice.h"
 #include "constants/battle.h"
@@ -577,6 +579,9 @@ gStdScripts_End::
 	.include "data/scripts/new_game.inc"
 	.include "data/scripts/hall_of_fame.inc"
 
+	.include "data/scripts/config.inc"
+	.include "data/scripts/debug.inc"
+
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
 	goto EventScript_ResetMrBriney
@@ -943,6 +948,10 @@ gText_PlayerFoundOneTMHM::
 	.string "{PLAYER} found one {STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
+gText_PlayerFoundTMHMs::
+	.string "{PLAYER} found {STR_VAR_3} {STR_VAR_1}\n"
+	.string "{STR_VAR_2}!$"
+
 gText_Sudowoodo_Attacked::
 	.string "The weird tree doesn't like the\n"
 	.string "WAILMER PAIL!\p"
@@ -1001,6 +1010,13 @@ Common_EventScript_LegendaryFlewAway::
 	release
 	end
 
+EventScript_VsSeekerChargingDone::
+	special VsSeekerFreezeObjectsAfterChargeComplete
+	waitstate
+	special VsSeekerResetObjectMovementAfterChargeComplete
+	releaseall
+	end
+
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"
 	.include "data/scripts/abnormal_weather.inc"
@@ -1056,3 +1072,125 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/LittleRootTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/LittleRoot_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/LittleRootTown_Mart/scripts.inc"
+
+	.include "data/maps/Tobaachi_Town/scripts.inc"
+
+	.include "data/maps/TobaachiTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/TobaachiTown_HeroHouse_1F/scripts.inc"
+
+	.include "data/maps/TobaachiTown_HeroHouse_2F/scripts.inc"
+
+	.include "data/maps/TobaachiTown_ProfessoCBuckthorn/scripts.inc"
+
+	.include "data/maps/Route1/scripts.inc"
+
+	.include "data/maps/AurigaTown/scripts.inc"
+
+	.include "data/maps/AurigaTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/AurigaTown_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/AurigaTown_Mart/scripts.inc"
+
+	.include "data/maps/AurigaTown_House1/scripts.inc"
+
+	.include "data/maps/AurigaTown_House2/scripts.inc"
+
+	.include "data/maps/AurigaTown_House3/scripts.inc"
+
+	.include "data/maps/TobaachiTown_Store/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/Route2/scripts.inc"
+
+	.include "data/maps/CutacrossCave/scripts.inc"
+
+	.include "data/maps/Route3/scripts.inc"
+
+	.include "data/maps/InageiForest/scripts.inc"
+
+	.include "data/maps/UnusedAuriga/scripts.inc"
+
+	.include "data/maps/InageiForest_South/scripts.inc"
+
+	.include "data/maps/Route3_v1/scripts.inc"
+
+	.include "data/maps/HozuniCity/scripts.inc"
+
+	.include "data/maps/HozuniCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/HozuniCity_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/HozuniCity_Gym/scripts.inc"
+
+	.include "data/maps/Route4/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
+
+	.include "data/maps/HozuniLake/scripts.inc"
+
+	.include "data/maps/HozuniCity_Mart/scripts.inc"
+
+	.include "data/maps/HozuniCity_House1/scripts.inc"
+
+	.include "data/maps/HozuniCity_House2/scripts.inc"
+
+	.include "data/maps/HozuniCity_House3/scripts.inc"
+
+	.include "data/maps/HozuniCity_House4/scripts.inc"
+
+	.include "data/maps/HozuniCity_PokemonSchool/scripts.inc"
+
+	.include "data/maps/HozuniRuins/scripts.inc"
+
+	.include "data/maps/HozuniRuins_House1/scripts.inc"
+
+	.include "data/maps/HozuniCity_House5/scripts.inc"
+
+	.include "data/maps/HozuniCity_House6/scripts.inc"
+
+	.include "data/maps/HozuniCity_House6_2F/scripts.inc"
+
+	.include "data/maps/HozuniCity_House7/scripts.inc"
+
+	.include "data/maps/HozuniCity_House7_2f/scripts.inc"
+
+	.include "data/maps/HozuniRuinsHouses_12_connection/scripts.inc"
+
+	.include "data/maps/HozuniRuinsHouse2/scripts.inc"
+
+	.include "data/maps/Route6/scripts.inc"
+
+	.include "data/maps/Route7/scripts.inc"
+
+	.include "data/maps/NoagaTown/scripts.inc"
+
+	.include "data/maps/Route1_House1/scripts.inc"
+
+	.include "data/maps/NoagaTown_House1/scripts.inc"
+
+	.include "data/maps/Route8/scripts.inc"
+
+	.include "data/maps/MissionYnez/scripts.inc"
+
+	.include "data/maps/Route9/scripts.inc"
+
+	.include "data/maps/Route10/scripts.inc"
+
+	.include "data/maps/KutsnoTown/scripts.inc"
+
+	.include "data/maps/NoagaTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/NoagaTown_House2/scripts.inc"
+
+	.include "data/maps/Route11/scripts.inc"
+
+	.include "data/maps/Route16/scripts.inc"

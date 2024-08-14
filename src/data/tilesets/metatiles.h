@@ -207,3 +207,24 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_CabinTileset[] = INCBIN_U16("data/tilesets/secondary/cabin_tileset/metatiles.bin");
+const u16 gMetatileAttributes_CabinTileset[] = INCBIN_U16("data/tilesets/secondary/cabin_tileset/metatile_attributes.bin");
+
+const u16 gMetatiles_gTileset_InageiForest[] = INCBIN_U16("data/tilesets/secondary/inagei_forest/metatiles.bin");
+const u16 gMetatileAttributes_gTileset_InageiForest[] = INCBIN_U16("data/tilesets/secondary/inagei_forest/metatile_attributes.bin");
+
+const u16 gMetatiles_gTileset_GenericTest[] = INCBIN_U16("data/tilesets/primary/generic_test/metatiles.bin");
+const u16 gMetatileAttributes_gTileset_GenericTest[] = INCBIN_U16("data/tilesets/primary/generic_test/metatile_attributes.bin");
+
+const u16 gMetatiles_Hozuni[] = INCBIN_U16("data/tilesets/secondary/hozuni/metatiles.bin");
+const u16 gMetatileAttributes_Hozuni[] = INCBIN_U16("data/tilesets/secondary/hozuni/metatile_attributes.bin");
+
+const u16 gMetatiles_Building_Hozuni[] = INCBIN_U16("data/tilesets/secondary/building_hozuni/metatiles.bin");
+const u16 gMetatileAttributes_Building_Hozuni[] = INCBIN_U16("data/tilesets/secondary/building_hozuni/metatile_attributes.bin");
+
+const u16 gMetatiles_HozuniRuins_Interior[] = INCBIN_U16("data/tilesets/secondary/hozuni_ruins_interior/metatiles.bin");
+const u16 gMetatileAttributes_HozuniRuins_Interior[] = INCBIN_U16("data/tilesets/secondary/hozuni_ruins_interior/metatile_attributes.bin");
+
+const u16 gMetatiles_beach[] = INCBIN_U16("data/tilesets/secondary/beach/metatiles.bin");
+const u16 gMetatileAttributes_beach[] = INCBIN_U16("data/tilesets/secondary/beach/metatile_attributes.bin");

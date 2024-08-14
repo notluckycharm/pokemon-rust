@@ -214,8 +214,17 @@
 #define MAPSEC_ALTERING_CAVE                0xD2
 #define MAPSEC_NAVEL_ROCK                   0xD3
 #define MAPSEC_TRAINER_HILL                 0xD4
-#define MAPSEC_NONE                         0xD5
 
+#define MAPSEC_INAGEI_FOREST                0xD5
+#define MAPSEC_TOBAACHI_TOWN                0xD6
+#define MAPSEC_AURIGA_TOWN                  0xD7
+#define MAPSEC_CUTACROSS_CAVE               0xD8
+#define MAPSEC_HOZUNI_CITY                  0xD9
+#define MAPSEC_HOZUNI_LAKE                  0xDA
+#define MAPSEC_NOAGA_TOWN                   0xDB
+#define MAPSEC_MISSION_YNEZ                 0xDC
+#define MAPSEC_KUTSNO_TOWN                  0xDD
+#define MAPSEC_NONE                         0xDE
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE
 #define METLOC_FATEFUL_ENCOUNTER            0xFF

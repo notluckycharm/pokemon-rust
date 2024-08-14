@@ -11,9 +11,8 @@ Common_EventScript_SetGymTrainers::
 	end
 
 RustboroCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_JOSH
-	settrainerflag TRAINER_TOMMY
-	settrainerflag TRAINER_MARC
+	settrainerflag TRAINER_BUCKY
+	settrainerflag TRAINER_FELICITY
 	return
 
 DewfordTown_Gym_SetGymTrainers::
@@ -34,13 +33,11 @@ MauvilleCity_Gym_SetGymTrainers::
 	return
 
 LavaridgeTown_Gym_SetGymTrainers::
-	settrainerflag TRAINER_COLE
 	settrainerflag TRAINER_AXLE
 	settrainerflag TRAINER_KEEGAN
 	settrainerflag TRAINER_GERALD
 	settrainerflag TRAINER_DANIELLE
 	settrainerflag TRAINER_JACE
-	settrainerflag TRAINER_JEFF
 	settrainerflag TRAINER_ELI
 	return
 

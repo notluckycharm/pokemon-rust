@@ -254,6 +254,10 @@ LittlerootTown_EventScript_Boy::
 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
 	end
 
+LittlerootTown_EventScript_Skitty::
+	msgbox LittlerootTown_Text_Skitty, MSGBOX_NPC
+	end
+
 LittlerootTown_EventScript_Twin::
 	lock
 	faceplayer
@@ -394,6 +398,10 @@ LittlerootTown_EventScript_GoSaveBirchTrigger::
 
 LittlerootTown_EventScript_TownSign::
 	msgbox LittlerootTown_Text_TownSign, MSGBOX_SIGN
+	end
+
+LittlerootTown_EventScript_LockedHouse::
+	msgbox LittlerootTown_Text_LockedHouse, MSGBOX_SIGN
 	end
 
 LittlerootTown_EventScript_BirchsLabSign::
@@ -969,6 +977,9 @@ LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "When does PROF. BIRCH spend time\n"
 	.string "at home?$"
 
+LittlerootTown_Text_Skitty:
+	.string "Skrrrrrr!$"
+
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
 	.string "If you go outside and go in the grass,\n"
@@ -998,6 +1009,10 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 LittlerootTown_Text_TownSign:
 	.string "LITTLEROOT TOWN\n"
 	.string "“A town that can't be shaded any hue.”$"
+
+LittlerootTown_Text_LockedHouse:
+	.string "It's Locked.\n"
+	.string "Better not go inside.$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. BIRCH'S POKéMON LAB$"

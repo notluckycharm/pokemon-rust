@@ -825,3 +825,80 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_CabinTileset =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CabinTileset,
+    .palettes = gTilesetPalettes_CabinTileset,
+    .metatiles = gMetatiles_CabinTileset,
+    .metatileAttributes = gMetatileAttributes_CabinTileset,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_gTileset_InageiForest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_gTileset_InageiForest,
+    .palettes = gTilesetPalettes_gTileset_InageiForest,
+    .metatiles = gMetatiles_gTileset_InageiForest,
+    .metatileAttributes = gMetatileAttributes_gTileset_InageiForest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_gTileset_GenericTest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_gTileset_GenericTest,
+    .palettes = gTilesetPalettes_gTileset_GenericTest,
+    .metatiles = gMetatiles_gTileset_GenericTest,
+    .metatileAttributes = gMetatileAttributes_gTileset_GenericTest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hozuni =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hozuni,
+    .palettes = gTilesetPalettes_Hozuni,
+    .metatiles = gMetatiles_Hozuni,
+    .metatileAttributes = gMetatileAttributes_Hozuni,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Building_Hozuni =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Building_Hozuni,
+    .palettes = gTilesetPalettes_Building_Hozuni,
+    .metatiles = gMetatiles_Building_Hozuni,
+    .metatileAttributes = gMetatileAttributes_Building_Hozuni,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_HozuniRuins_Interior =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_HozuniRuins_Interior,
+    .palettes = gTilesetPalettes_HozuniRuins_Interior,
+    .metatiles = gMetatiles_HozuniRuins_Interior,
+    .metatileAttributes = gMetatileAttributes_HozuniRuins_Interior,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_beach =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_beach,
+    .palettes = gTilesetPalettes_beach,
+    .metatiles = gMetatiles_beach,
+    .metatileAttributes = gMetatileAttributes_beach,
+    .callback = NULL,
+};
