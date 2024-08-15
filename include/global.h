@@ -1072,7 +1072,6 @@ struct SaveBlock1
 #if FREE_MYSTERY_GIFT == FALSE
     /*0x322C*/ struct MysteryGiftSave mysteryGift;
 #endif //FREE_MYSTERY_GIFT
-    /*0x3598*/ u8 unused_3598[0x180];
     /*0x3???*/ u8 dexSeen[NUM_DEX_FLAG_BYTES];
     /*0x3???*/ u8 dexCaught[NUM_DEX_FLAG_BYTES];
 #if FREE_TRAINER_HILL == FALSE
